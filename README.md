@@ -38,5 +38,3 @@ The project encompassed the following stages:
 - `diagrams/` — lab architecture diagram
 - `splunk/` — example configuration and SPL searches
 - `evidence/screenshots/` — location for original project screenshots
-
-**Note:** Supporting documentation and SPL/configuration examples are reference material. Confirm any environment-specific values against your actual lab before presenting them as verified configurations. Add your original screenshots to `evidence/screenshots/`; no screenshots have been fabricated.
