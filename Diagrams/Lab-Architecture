@@ -1,0 +1,12 @@
+# Lab Architecture
+
+I designed my home lab to generate Windows events, forward them to Splunk, and investigate the collected security logs.
+
+flowchart TD
+    A[VirtualBox] --> B[Windows Server 2022]
+    B --> C[Active Directory]
+    B --> D[Windows Event Logs]
+    D --> E[Splunk Universal Forwarder]
+    E --> F[Splunk Enterprise]
+    F --> G[SPL Searches]
+    G --> H[Security Monitoring and Investigation]
