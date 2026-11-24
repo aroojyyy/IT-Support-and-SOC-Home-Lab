@@ -1,0 +1,3 @@
+index=main sourcetype=XmlWinEventLog:Security EventCode=4625
+| table _time host Account_Name src_ip Logon_Type EventCode
+| sort - _time
